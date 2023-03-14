@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sudoku.c06d4eab.css">
+    <link rel="stylesheet" href="sudoku.16a72d32.css">
     <link rel="icon" href="sudoku.1476ac81.png">
     <title>Sudoku</title>
 </head>
@@ -13,10 +13,16 @@
         <div class="sudoku">
             <div class="sudoku__header">
                 <div class="sudoku__level">
-                    <span>Level:</span>
-                    <button class="sudoku__level-button active" id="levelEasy">Easy</button>
-                    <button class="sudoku__level-button" id="levelMedium">Medium</button>
-                    <button class="sudoku__level-button" id="levelHard">Hard</button>
+                    <div class="sudoku__level-container">Level:
+                        <ul>
+                            <li class="sudoku__level-li"><button class="sudoku__level-button_550px active" data-level="easy">Easy</button></li>
+                            <li class="sudoku__level-li"><button class="sudoku__level-button_550px" data-level="medium">Medium</button></li>
+                            <li class="sudoku__level-li"><button class="sudoku__level-button_550px" data-level="hard">Hard</button></li>
+                        </ul>
+                    </div>
+                    <button class="sudoku__level-button active" data-level="easy">Easy</button>
+                    <button class="sudoku__level-button" data-level="medium">Medium</button>
+                    <button class="sudoku__level-button" data-level="hard">Hard</button>
                 </div>
                 <div class="sudoku__error"><span>Error:</span> <span id="NumError">0</span>/3</div>
                 <div class="sudoku__timer">
@@ -65,6 +71,6 @@
             </div>
         </div>
     </div>
-    <script type="module" src="sudoku.5f0a451b.js"></script>
+    <script type="module" src="sudoku.a3b7805a.js"></script>
 </body>
 </html>
