@@ -200,7 +200,7 @@ var InputNumber = /*#__PURE__*/function () {
     key: "gameLevel",
     value: function gameLevel(level) {
       if (level == 'easy') {
-        this.fillRandomEmptyCell(50);
+        this.fillRandomEmptyCell(3);
       }
       ;
       if (level == 'medium') {
